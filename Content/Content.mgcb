@@ -1,0 +1,21 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\ANO.MonoGame.Content.Pipeline\bin\Debug\net6.0\ANO.MonoGame.Content.Pipeline.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin map.tmx
+/importer:TiledMapContentImporter
+/processor:TiledMapContentProcessor
+/build:map.tmx
+
